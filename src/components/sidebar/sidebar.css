@@ -1,0 +1,33 @@
+.bg-effect, .bg-effect-hover:hover {
+    background-color: #46b2e8;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.height-100vh {
+    height: 100vh;
+}
+
+/* Default: sidebar visible, hamburger hidden */
+.sidebar {
+  width: 250px;
+  display: block;
+}
+.hamburger {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* On phones (max-width: 768px for example) */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; /* hide sidebar */
+  }
+  .hamburger {
+    display: block; /* show hamburger */
+  }
+}
