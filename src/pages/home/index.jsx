@@ -34,7 +34,7 @@ export const Home = () => {
     }
 
     const pinnedNotes = notes.filter((note) => note.pinned && !note.bin);
-    const generalNotes = notes.filter((note) => !note.bin && !note.archived && !note.pinned);
+    const generalNotes = notes.filter((note) => !note.bin && !note.pinned);
 
     return (
         <>
@@ -65,7 +65,7 @@ export const Home = () => {
                     </div>
                     {
                         pinnedNotes.length > 0 && 
-                        <h2 className="header-style">No Important Notes</h2>
+                        <h2 className="header-style">Important Notes</h2>
                     }
                     <div className="flex flex-row flex-wrap">
                         {
