@@ -5,11 +5,12 @@ This is react app which can get the notes from the user and provides the option 
 
 ## Authors
 
-- [@JayaPramodh](https://www.github.com/octokatherine)
+- [@JayaPramodh](https://www.github.com/JayaPramodh)
 
 
 ## Acknowledgements
  - [Reference](https://github.com/prakashsakari/gfg_notes_app.git)
+ - [README Credits](https://www.github.com/octokatherine)
 
 
 ## Installation
